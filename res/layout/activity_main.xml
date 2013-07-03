@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="230dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/untitled"
+        android:gravity="bottom">
+         <Button
+            android:id="@+id/facebook"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/twitter"
+            android:layout_alignBottom="@+id/twitter"
+            android:text="@string/register_with"
+            android:fontFamily="CoasterBlack"
+            android:background="@drawable/m"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+        <Button
+            android:id="@+id/twitter"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/email"
+            android:layout_alignBottom="@+id/email"
+            android:text="@string/register_with"
+            android:fontFamily="CoasterBlack"
+            android:background="@drawable/m"
+            android:textSize="17sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+        
+        
+        <Button
+            android:id="@+id/email"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/signin"
+            android:layout_alignBottom="@+id/signin"
+            android:text="@string/register_with"
+            android:fontFamily="CoasterBlack"
+            android:background="@drawable/m"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp" />
+        
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="120dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:fontFamily="CoasterBlack"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="right|center_vertical"
+            android:paddingRight="18dp"
+            android:background="@drawable/sg"
+            android:text="@string/sign_in" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
